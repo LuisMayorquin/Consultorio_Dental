@@ -1,71 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
 header {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background:rgba(157, 191, 255, 0.505);
+}
+
+nav  {
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    height: 110px;
-    background-color: rgb(190, 214, 221);
-    align-items: center;
-    padding: 10px;
+    padding: 20px 0;
+      
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.logo {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 100px;
-    margin-right: 20px;
-}
-
-nav a {
-    font-weight: 600;
-    padding-right: 10px;
-}
-
-nav a:hover {
-    color: rgb(152, 135, 102);
-}
-
-h2{
-     color: rgb(175, 180, 181);
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     font-size: x-large;
-}
-
-
-.slogan{
-    text-align: justify;
-    padding: 50px 50px 50px 50px;
-    background-color: rgb(137, 195, 192);
-    font-size: larger; 
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
     
-
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(9, 14, 24, 0.732);
+    font-size:medium;
+}
+a:hover{
+    color: rgb(87, 153, 219);
+}
+#logo {
+    mix-blend-mode: color-burn;
 }
 
-.genteFeliz{
-    border-radius: 150px;
-    padding: 25px 25px 25px 25px;
-    width: 30%;
+.texto {
+    margin-top: 130px;
+    max-width: 600px;
+}
+.texto h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgba(1, 25, 67, 0.929);
+}
+.texto p {
+    font-size: 30px;
+}
+.texto a {
+    display: inline-block;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: mediumblue;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 6px;
 }
 
-div{
-    display: flex;
-    justify-content: center;
+.fotillo{
+    
+    position: absolute;
+    top: 0;
+    right: 12%;
 }
-
-#doctor{
-    border-radius: 150px;
-}
-
-.imgLink{
-    padding: 25px 25px 25px 25px;
-}
+.fotillo img{
+    display: block;
+    padding-top: 100px;
+    width: 410px;
+    border-radius: 50px ;
+    
+}    
 
 footer{
     background-color: cadetblue;
@@ -77,23 +85,7 @@ footer{
     color: cadetblue;
 }
 
-ol{
-    text-align: center;
-    list-style-position: inside;
-}
-ol.center li {
-    text-align: left;
-    margin-left: 45%;
-}
 
-ul {
-    text-align: center;
-    list-style-position: inside;
-}
-ul.center li{
-    text-align: left;
-    margin-left: 45%;
-}
 
 #tituloServicios{
     text-align: center;
