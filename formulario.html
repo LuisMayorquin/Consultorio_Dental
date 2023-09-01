@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="./PaginaDelConsultorio/assets/style/formestilo.css">
+</head>
+<body>
+    <div class="fondo">
+        <form action="#">
+            <label class="indicativo">Usuario</label> <br>
+            <input class="in" type="text" placeholder="Usuario"  required > <br>
+            <label class="indicativo">Email</label> <br>
+            <input class="in" type="email" placeholder="Email"  required> <br>
+            <label class="indicativo">Edad</label><br>
+            <input class="in" type="number" name="edad" id="" placeholder="Edad"><br>
+            <label class="indicativo">Fecha</label><br>
+            <input class="in" type="time" name="hora"> <br>
+            <label class="indicativo">Numero Telefonico</label> <br>
+            <input class="in" type="tel" name="telefono"> <br>
+            <label class="indicativo">Contraseña</label> <br>
+            <input class="in" type="password" placeholder="Contraseña" required> <br>
+            <br>
+
+            <label class="indicativo">Genero</label> <br>
+            <input type="radio" name="genero" id="masculino" checked>
+            <label for="masculino" class="indicativo">Masculino</label>
+            <input type="radio" name="genero" id="Femenino" > <label for="Femenino" class="indicativo">Femenino</label> <br>
+            <label for="otro" class="indicativo">Otro</label>
+            <input type="radio" name="genero" id="otro">
+            <br> <br>
+            <label class="indicativo">Seleccione tipo de consulta</label> 
+            <br>
+            <select name="" id="">
+                <option value="" disabled selected>Seleccione una opción</option>
+                <option value="">Limpieza dental</option>
+                <option value="">Extracción</option>
+                <option value="">Caries</option>
+                <option value="">Chequeo</option>
+            </select><br><br>
+            
+            <br>
+            <label class="indicativo">Información adicional</label> <br>
+            <textarea class="txta" name="Message" id="" cols="30" rows="10" placeholder="Escriba detalles de su padecimiento"></textarea> <br>
+            <label for="">Estudios adicionales</label> <br>
+            <input type="file" name="" id="">
+            <br> 
+          
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablecer</button>
+    
+        </form>
+    </div>
+    
+</body>
+</html>

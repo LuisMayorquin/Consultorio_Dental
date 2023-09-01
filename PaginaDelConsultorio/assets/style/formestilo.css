@@ -1,0 +1,58 @@
+body {
+    
+    height: 100%;
+    background-image: url(/PaginaDelConsultorio/assets/assets/imagenes/photo-1607613009820-a29f7bb81c04.avif);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.fondo {
+  width: 100%;
+  background-color: rgba(224, 232, 240, 0.71);
+  margin: auto;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.in {
+  margin: 10px;
+  width: 40%;
+  min-height: 2em;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(0, 0, 0);
+  outline-color: rgb(230, 205, 178);
+  background-color: rgba(12, 27, 42, 0.24);
+}
+
+.txta {
+    margin: 10px 10px 10px 10px;
+    width: 60%;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    background-color: rgba(12, 27, 42, 0.24);
+    outline-color: rgb(204, 194, 183);
+}
+
+button {
+    cursor: pointer;
+    width: 90px;
+    margin-bottom: 15px;    
+    background-color: rgba(143, 182, 210, 0.204);
+    border: 2px solid rgb(0, 0, 0);
+}
+button:hover  {
+    background-color:rgba(150, 177, 202, 0.522);
+}
+
+.indicativo {
+  color:black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
