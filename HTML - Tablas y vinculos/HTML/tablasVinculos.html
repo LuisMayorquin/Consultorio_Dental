@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Vinculos</title>
+</head>
+<body>
+    <h1>Tablas</h1> <!--las tablas son conjunto estructurado de datos compuesto por filas o columnas -->
+    <caption>Tabla con animales</caption> <!--Representa un titlulo descriptivo en una tabla-->
+
+    <table border="3"> <!--tag para crear la tabla-->
+        <tr> <!--el tr representa las filas-->
+            <th>Encabezado 1</th> <!--el th representa una celda de encabezado {o las que necesitemos}-->
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+        </tr>
+        <tr>
+            <td>Perrito</td> <!--representa las celdas de datos-->
+            <td>Gato</td>
+            <td>Pez</td>
+        </tr>
+        <tr>
+            <td>Tortuga</td>
+            <td>Axolote</td>
+            <td>Conejo</td>
+        </tr>
+    </table>
+    <br>
+    <caption>Tabla con recomendaciones saludables</caption>
+    <table border="5">
+        <tr>
+            <th>Snacks</th>
+            <th>Bebidas</th>
+            <th>Postres</th>
+        </tr>
+        
+        <tr>
+            <td>Chips</td>
+            <td>Agua de coco</td>
+            <td>Yogurt griego</td>
+        </tr>
+        <td>1tza de chips de camote, horneadas en air fryer por 18 min a 180 C</td>
+        <td>1 Taza de agua de coco, con hielo</td>
+        <td>1/4 taza de yogurt griego congelado con 1 cucharada de nueces</td>
+    </table>
+    <br>
+    <hr>
+    <h1>Vinculos y anclaje</h1>
+    <h2>Anclaje Externo</h2>
+    <a href="https://psicologiaymente.com/vida/mejores-pastas-dientes" target="_blank">Mejores pastas de dientes</a>
+
+    <h3>Anclaje interno</h3>
+    <h2>Mejores pastas de dientes</h2>
+    <a href="#subtitulo2">Sub2</a>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet eum nihil perferendis quod maiores, debitis quas ullam animi sunt aliquid similique soluta nesciunt, a quo unde nostrum. Odit, quam fugiat.</p>
+    <h4>Subtitulo</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab, est exercitationem quasi corporis eveniet fuga voluptatum soluta assumenda architecto facere debitis ducimus ad doloribus, maxime quaerat nihil! Nulla, quam.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt consequuntur, ullam doloremque eveniet quisquam exercitationem rem mollitia? Inventore perferendis voluptatem alias veritatis animi, dicta asperiores quam, enim quo eligendi laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores modi veniam quaerat quis quam architecto, repudiandae saepe eius doloremque voluptatem minus vero quidem alias perferendis laboriosam odio ea deleniti corrupti.
+    </p>
+    <a name="subtitulo2"></a>
+    <h4>Subtitulo</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi necessitatibus facere quisquam excepturi praesentium accusantium laudantium ab porro alias, dolor nostrum distinctio nesciunt minima officia id quam ea maxime suscipit.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab, est exercitationem quasi corporis eveniet fuga voluptatum soluta assumenda architecto facere debitis ducimus ad doloribus, maxime quaerat nihil! Nulla, quam.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt consequuntur, ullam doloremque eveniet quisquam exercitationem rem mollitia? Inventore perferendis voluptatem alias veritatis animi, dicta asperiores quam, enim quo eligendi laborum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores modi veniam quaerat quis quam architecto, repudiandae saepe eius doloremque voluptatem minus vero quidem alias perferendis laboriosam odio ea deleniti corrupti.
+    </p>
+    <br>
+    <h2>Vinculo de descarga</h2>
+    <a href="./assets/manual-de-higiene-bucal.pdf" target="_blank">Manual </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Formulario</h1>
+    <form action="procesar_formulario" method="post">
+        Formulario consultorio Dental
+    </form>
+    <br>
+    <h3>Etiqueta input</h3>
+    <input type="text" name="usuario" placeholder="Usuario">
+    <!--Type:Defin-->
+    <br><br>
+    <h3>Etiqueta Button</h3>
+    <button type="submit">Enviar</button>
+    <button type="reset">Restablecer</button>
+    <br><br>
+    <h3>Etiqueta Area de texto</h3>
+    <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea>
+    <br><br>
+    <h3>Etiqueta select</h3>
+    <select name="select" id="select">
+        <option value="presentacion">Elija una opcion</option>
+        <option value="op1">opcion 1</option>
+        <option value="op2">opcion 2</option>
+        <option value="op3">opcion 3</option>
+    </select>
+    <br>
+    <hr>
+    <h1>Tipos de entrada</h1>
+    <h4>Enviar (submit)</h4>
+    <form action="/procesar_formularios" method="post">
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <h3>Numero (number)</h3>
+    <input type="number" name="numero">
+    <br>
+    <h3>Contraseña</h3>
+    <input type="password" name="password">
+    <br>
+    <h3>Correo electronico</h3>
+    <input type="email" name="email">
+    <br>
+    <h3>Fecha</h3>
+    <input type="date" name="fecha">
+    <br>
+    <h3>hora</h3>
+    <input type="time" name="hora" id="">
+    <br>
+    <h3>Telefono</h3>
+    <input type="tel" name="telefono">
+    <br>
+    <h3>Archivo</h3>
+    <input type="file" name="archivo">
+
+</body>
+</html>
